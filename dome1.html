@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<header>
+   //头部
+</header>
+<article>
+    //文章
+    <main>
+        //主要内容
+    </main>
+    <section>
+        //段落
+        <h3></h3>
+        <p>
+            <span>waring</span>
+            <mark>waring</mark>
+        </p>
+        <article>
+            //也可以嵌入文章
+        </article>
+    </section>
+    <input type="range" max="1" min="0" id="rangeView">
+    <input type="color" class="chooseColorView">
+    <audio src="蔡健雅,YASEN,苏比依%20-%20别找我麻烦.mp3" controls></audio>
+</article>
+<footer>
+    //底部内容
+</footer>
+</body>
+<script>
+    function getInputViewValue(selctor) {
+        document.querySelector(selctor)
+                .onchange = function () {
+            console.log(this.value);
+        };
+    }
+
+
+</script>
+</html>
